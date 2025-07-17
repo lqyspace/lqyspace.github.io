@@ -1,3 +1,3 @@
-var posts=["2024/01/17/algorithm/数位DP/","2025/07/15/github/关于GitHub,PicGo和Typora使用小结/","2024/01/01/hexo/npm图床使用/","2025/07/17/hexo/为GitHub博客添加cloudflare加速访问/","2025/07/08/hexo/自动化部署/","2024/01/14/svn/TortoiseSVN基本使用/","2024/01/16/svn/svn仓库目录详解/","2024/01/12/svn/svn入门/"];function toRandomPost(){
+var posts=["2024/01/17/algorithm/数位DP/","2024/01/01/hexo/npm图床使用/","2025/07/08/hexo/自动化部署/","2024/01/14/svn/TortoiseSVN基本使用/","2025/07/17/hexo/为GitHub博客添加cloudflare加速访问/","2024/01/16/svn/svn仓库目录详解/","2025/07/15/github/关于GitHub,PicGo和Typora使用小结/","2024/01/12/svn/svn入门/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
